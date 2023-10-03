@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+        .heading{
+            height: 100vh;
+            background-color: aqua;
+            text-align: center;
+            padding-top: 40vh;
+        }
+        .heading h1{
+            text-transform: capitalize;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .heading button{
+            height: 7vh;
+            width: 10%;
+            text-transform: uppercase;
+            border-radius: 25px;
+            background-color: black;
+            color: white;
+            margin-top: 10vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1 id="title">welcome to ducat india.</h1>
+        <button onclick="alert('hello html')">html</button>
+        <button onclick="document.getElementById('title').innerHTML='welcome to css'">css</button>
+        <button onclick="document.getElementById('title').innerHTML='welcome to java'">java</button>
+        <button onclick="document.getElementById('title').innerHTML='welcome to python'">python</button>
+
+    </div>
+</body>
+</html>

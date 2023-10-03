@@ -1,0 +1,52 @@
+*{margin: 0%;}
+
+.fl{float: left;}
+.fr{float: right;}
+.clr{clear: both;}
+.new{ float: left; margin-left: 1%;}
+
+.col-nav{height: 100px; width:15.83%;}
+
+
+.header{
+    height: 100px;
+    background-color: black;
+    margin-bottom: 1vh;
+}
+
+.nav{
+    background-color: burlywood;
+    margin-bottom: 1vh;
+}
+
+.banner{
+    height: 400px;
+    background-color: chartreuse;
+    margin-bottom: 1vh;
+}
+
+.article{
+    height: 600px;
+    width: 74.50%;
+    background-color: darkmagenta;
+}
+
+.aside{
+    height: 600px;
+    width: 25%;
+    background-color: darkgray;
+    margin-bottom: 1vh;
+}
+
+.footer{
+    height: 200px;
+    background-color: black;
+    margin-top: 1vh;
+}
+
+/* code for template2 */
+.deal{
+    background-color: blue;
+    margin-bottom: 1vh;
+}
+.deal-nav{height: 150px; width: 24.25%;}

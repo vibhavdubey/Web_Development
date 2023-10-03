@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .certificate {
+            height: 80vh;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 10vh;
+            border: 1px solid black;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            height: 20vh;
+            width: 20%;
+        }
+
+        .logo img {
+            height: 20vh;
+            width: 100%;
+            object-fit: cover;
+
+        }
+
+        .title {
+            height: 20vh;
+            width: 80%;
+            font-size: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: capitalize;
+            color: blue;
+        }
+
+        .mid {
+            height: 40vh;
+            width: 100%;
+            text-align: center;
+            padding: 5vh 10% 5vh 10%;
+        }
+
+        .mid h1 {
+            text-transform: capitalize;
+            font-size: 45px;
+            padding-bottom: 4vh;
+            color: gold;
+        }
+
+        .mid p {
+            font-size: 20px;
+        }
+
+        .left {
+            height: 20vh;
+            width: 75%;
+        }
+
+        .right {
+            height: 20vh;
+            width: 25%;
+        }
+
+        .right img {
+            height: 19vh;
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <script>
+        document.write(`<div class="certificate">
+        <div class="logo">
+            <img src="img/ducatLogo.png" alt="ducatLogo">
+        </div>
+        <div class="title">
+            ducat india
+        </div>
+        <div class="mid">
+            <h1>certificate of training</h1>
+            <p><span id="name">FULL NAME</span> from ducat india has successfully completed six months course in <span
+                    id="course">COURSE</span>
+                with a grade of <span id="grade">GRADE</span>. This course is rigorous , in-depth and hand-on learning
+                program consisting
+                of two cources frontend and backend. </p>
+        </div>
+        <div class="left"></div>
+        <div class="right">
+            <img src="img/ducatLogo.png" alt="ducat">
+        </div>
+    </div>`);
+
+    let name="Vibhav Kumar Dubey";
+    let course="Full Stack Development";
+    let grade="A++";
+    
+    document.getElementById('name').innerHTML=(name);
+    document.getElementById('course').innerHTML=(course);
+    document.getElementById('grade').innerHTML=(grade);
+    </script>
+
+
+</body>
+
+</html>

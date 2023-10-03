@@ -1,0 +1,15 @@
+*{margin: 0;}
+.bg1{background-color: black;}
+.bg2{background-color: blue;}
+.bg3{background-color: tomato;}
+.bg4{background-color: blueviolet;}
+.head{
+    height: 10vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.post{
+    height: 90vh;
+    width: 100%;
+}

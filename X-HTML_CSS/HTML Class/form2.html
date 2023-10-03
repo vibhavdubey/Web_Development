@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        header {
+            text-align: center;
+            height: 5rem;
+            background-color: rgb(8, 48, 48);
+            color: brown;
+        }
+
+        form {
+            text-align: left;
+            box-sizing: content-box;
+            margin-top: 2rem;
+        }
+        tr>th{
+            width: 10rem;
+        }
+        
+
+        body {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- This is the head of a body. -->
+    <div>
+        <header>
+            <h1>Registration Form</h1>
+        </header>
+    </div>
+
+    <main>
+        <form action="" id="form1" method="post">
+            <table style="padding-left: 500px; height:20px;">
+                <div>
+                    <tr>
+                        <th><label for="fname">First Name : </label></th>
+                        <td>
+                            <input type="text" id="fname" name="fname" placeholder="enter your first name" required />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="mname">Middle Name : </label></th>
+                        <td>
+                            <input type="text" id="mname" name="mname" placeholder="enter your middle name" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="lname">Last Name : </label></th>
+                        <td><input type="text" id="lname" name="lname" placeholder="enter your last name" required />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="email">Email : </label></th>
+                        <td><input type="email" id="email" name="email" placeholder="enter you email" required /></td>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="password">Password : </label></th>
+                        <td><input type="password" id="password" name="password" placeholder="enter you password"
+                                required /></td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="cpassword">Confirm Password : </label></th>
+                        <td><input type="password" id="cpassword" name="cpassword" placeholder="enter you password"
+                                required /></td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="gender">Gender : </label></th>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male" required />
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female" required />
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" name="gender" value="other" required />
+                            <label for="other">Other</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th> <label for="skill">Skill : </label></th>
+                        <td style="text-align:left">
+                            <input type="checkbox" id="java" name="skill" value="JAVA" required />
+                            <label for="java">JAVA</label>
+                            <input type="checkbox" id="dbms" name="skill" value="DBMS" required />
+                            <label for="dbms">DBMS</label>
+                            <input type="checkbox" id="clanguage" name="skill" value="C Language" required />
+                            <label for="clanguage">C Language</label>
+                            <br />
+
+                            <input type="checkbox" id="datastructure" name="skill" value="Data Structure" required />
+                            <label for="datastructure">Data Structure</label>
+                            <input type="checkbox" id="algorithm" name="skill" value="Algorithm" required />
+                            <label for="algorithm">Algorithm</label>
+                            <input type="checkbox" id="mysql" name="skill" value="MySQL" required />
+                            <label for="mysql">MySQL</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="dob">Date of Birth : </label></th>
+                        <td><input type="date" name="dob" placeholder="enter you dob" required /></td>
+                    </tr>
+
+
+
+                    <tr>
+                        <th><label for="pnumber">Mobile Number : </label></th>
+                        <td><input type="tel" name="pnumber" placeholder="enter you phone number" required /></td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="address">Address : </label></th>
+                        <td><input type="text" id="address" name="Address" placeholder="enter you address" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="city">City : </label></th>
+                        <td><select name="city" id="city">
+                                <option value="select">---select option---</option>
+                                <option value="ayodhya">Ayodhya</option>
+                                <option value="azamgarh">Azamgarh</option>
+                                <option value="chennai">Chennai</option>
+                                <option value="chandigarh">Chandigarh</option>
+                                <option value="delhi">Delhi</option>
+                                <option value="jaipur">Jaipur</option>
+                                <option value="kanpur">Kanpur</option>
+                                <option value="kolkata">Kolkata</option>
+                                <option value="lucknow">Lucknow</option>
+                                <option value="mumbai">Mumbai</option>
+                                <option value="pune">Pune</option>
+                                <option value="varanasi">Varanasi</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="state">State : </label></th>
+                        <td><input type="text" id="state" name="State" placeholder="enter you state" required /></td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="pincode">Pin Code : </label></th>
+                        <td><input type="number" id="pincode" name="Pincode" placeholder="enter you pincode" required />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="comment">Comment : </label></th>
+
+                        <td><textarea name="Comment" id="comment" cols="30" rows="10"
+                                placeholder="enter your comment..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="reset" form="form1" value="reset">Reset</button>
+                            <button type="submit" form="form1" value="submit">Submit</button>
+                        </td>
+                    </tr>
+                </div>
+            </table>
+        </form>
+    </main>
+</body>
+
+</html>

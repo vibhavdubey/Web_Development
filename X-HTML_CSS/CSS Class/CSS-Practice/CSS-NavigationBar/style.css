@@ -1,0 +1,45 @@
+*{margin: 0;padding: 0;}
+.fl{float: left;}
+.fr{float: right;}
+.new{float: left; margin-left: 1%;}
+.clr{clear: both;}
+
+.bg1{background-color: black;}
+.bg2{background-color: blueviolet;}
+.bg3{background-color: brown;}
+.bg4{background-color: blue;}
+
+.head{
+    /* height: 10vh; */
+    padding: 2.2% 5%;
+}
+.logo{
+    width: 20%;
+    display: block;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
+/* .logo img{
+    height: 10vh;
+} */
+.nav{
+    width: 70%;
+}
+.nav ul{
+    padding-top: 1%;
+    text-align: right;
+}
+.nav ul li{
+    display: inline;
+    list-style: none;
+    margin-right: 2% ;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+
+}

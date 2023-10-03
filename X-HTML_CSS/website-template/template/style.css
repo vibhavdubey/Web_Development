@@ -1,0 +1,43 @@
+
+*{margin: 0%;}
+
+.fl{ float: left;}
+.fr{ float: right;}
+.clr{clear: both;}
+.new{ float: left; margin-left: 1%;}
+
+
+.col-1{ height: 100px; width:19.20%; }
+
+.header{
+    background-color: black;
+    height: 100px;
+    margin-bottom: 1vh;
+}
+
+.nav{
+    background-color: brown;
+    margin-bottom: 1vh;
+}
+
+.article{
+    background-color: rgb(26, 223, 101);
+    height: 800px;
+    width: 74.80%;
+    
+
+}
+
+.aside{
+    background-color: cadetblue;
+    height: 800px;
+    width: 25%;
+
+}
+
+.footer{
+    background-color: black;
+    height: 200px;
+    margin-top: 1vh;
+
+}

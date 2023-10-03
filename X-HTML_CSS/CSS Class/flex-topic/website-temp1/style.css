@@ -1,0 +1,29 @@
+*{margin:0}
+
+.bg1{background-color: black; }
+.bg2{background-color: blueviolet; }
+.bg3{background-color: aqua; }
+.bg4{background-color: aquamarine; }
+.bg5{background-color: chocolate;}
+
+.header{
+    height: 7vh;
+}
+.nav{
+    height: 11vh;
+}
+.banner{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bannerLeft{
+    height: 50vh;
+    width: 75%;
+}
+.bannerRight{
+    height: 50vh;
+    width: 19%;
+
+}

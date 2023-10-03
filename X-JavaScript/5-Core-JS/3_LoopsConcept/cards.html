@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        .bg0{background-color: bisque;}
+        .bg1{background-color: aquamarine;}
+        .bg2{background-color: brown;}
+        .bg3{background-color: blueviolet;}
+        .bg4{background-color: cornflowerblue;}
+        .bg5{background-color: blue;}
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card{
+            width: 32%;
+            height: 250px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <script>
+            // let card=1;
+            // while(card<=4){
+            //     document.write(`<div class="card bg${card}" ></div>`);
+            //     card++;
+            // }
+
+
+            const user=["vibhav","Ankit","Rahul","Arnav","Mohit","Rohit"];
+            const emails=["vibhav@gmail.com","ankit@gmail.com","rahul@gmail.com","arnav@gmail.com","mohit@gmail.com","rohit@gmail.com"];
+            // let card=0;
+            // while(card<user.length){
+            //     document.write(`<div class="card bg${card}" >
+            //         <h1>${user[card]}</h1>
+            //         <h1>${emails[card]}</h1>
+            //         </div>`);
+            //     card++;
+            // }
+
+            
+            // do{
+            //     document.write(`<div class="card bg${card}">
+            //         <h1>${users[card]}</h1>
+            //         <h1>${emails[card]}</h1>
+            //         </div>`);
+            //     card ++;
+            // }
+            // while(card<user.length);
+
+
+            for (let card = 0; card < user.length; card++) {
+                document.write(`<div class="card bg${card}" >
+                                <h1>${user[card]}</h1>
+                                <h1>${emails[card]}</h1>
+                            </div>`);
+            }
+        </script>
+    </div>
+</body>
+</html>

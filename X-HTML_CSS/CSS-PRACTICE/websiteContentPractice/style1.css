@@ -1,0 +1,40 @@
+*{margin: 0;}
+.head {
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+}
+.banner{
+    height: 90vh;
+    width: 100%;
+    background-color: tomato;
+    margin-top: 10vh;
+}
+.mid{
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.about{
+    height: 50vh;
+    background-color: aqua;
+}
+.product{
+    height: 40vh;
+    background-color: blueviolet;
+}
+.footer{
+    height: 10vh;
+    background-color: black;
+}
+.chat{
+    width: 80px;
+    height: 80px;
+    background-color: violet;
+    position: fixed;
+    bottom: 10vh;
+    right: 8%;
+    border-radius: 50%;
+    border: 5px solid white;
+}

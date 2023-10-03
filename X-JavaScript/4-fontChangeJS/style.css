@@ -1,0 +1,62 @@
+*{margin: 0;padding: o;box-sizing: border-box;}
+
+body{
+    background-color: rgb(150, 175, 167);
+}
+@font-face {
+    font-family: mooli-regular;
+    src: url(fonts/Mooli-Regular.ttf);
+}
+@font-face {
+    font-family: mukta-bolid;
+    src: url(fonts/Mukta-Bold.ttf);
+}
+@font-face {
+    font-family: nunito-italic;
+    src: url(fonts/Nunito-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: nunito;
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Italic.ttf);
+}
+.header{
+    height: 50vh;
+    background-color: black;
+    color: white;
+    padding-top: 20vh;
+    border-radius: 100px;
+}
+.header h1{
+    text-align: center;
+    /* font-family: mooli-regular; */
+}
+.fontStyle{
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button{
+    height: 10vh;
+    width: 15%;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    text-transform: capitalize;
+}
+.fontColor{
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2{
+    height:5vh;
+    text-align: center;
+    
+}

@@ -1,0 +1,59 @@
+*{margin: 0; padding: 0;}
+.fl{float: left;}
+.fr{float: right;}
+.new{float: left; margin-left: 1%;}
+.clr{clear: both;}
+
+.bg1{background-color: black;}
+.bg2{background-color: blueviolet;}
+.bg3{background-color: brown;}
+.bg4{background-color: blue;}
+
+
+.bg-img-1{
+    background-image: url('banner-img/irctc.webp');
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    background-size:70% 100vh ;
+    background-position: bottom left;
+    
+}
+
+.banner h1{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    padding-top: 25vh;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 2px black;
+}
+.banner ul{
+    /* color: white; */
+    width: 50%;
+    margin: auto;
+    /* text-align: center;
+    margin-left: 25%; */
+    padding-top: 10vh;
+}
+.banner ul li{
+    background-color: gold;
+    list-style: none;
+    float: left;
+    margin-bottom: 1vh;
+    margin-right: 5%;
+    padding: 2% 5%;
+
+
+}
+/* .header{
+    height: 10vh;
+    background-color: black;
+} */
+
+.banner{
+    height: 90vh;
+    width: 100%;
+}
+

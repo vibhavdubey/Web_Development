@@ -1,0 +1,52 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.bg1{background-color: black;}
+.bg2{background-color: blueviolet;}
+.bg3{background-color: brown;}
+.bg4{background-color: darkcyan;}
+.bg5{background-color: aquamarine;}
+.bg6{background-color: blue;}
+
+
+/* this is header part css */
+.header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    height: 10vh;
+    width: 30%;
+    background-color: aqua;
+}
+.icon ul{}
+.icon ul li{
+    display: inline;
+}
+
+
+.register{
+    height: 10vh;
+    width: 20%;
+    background-color: antiquewhite;
+    j
+}
+.register ul{}
+.register ul li{
+
+}
+.register ul li a { 
+    
+}
+
+/* this is navigation part css  */
+
+.navigation{
+    height: 20vh;
+    width: 100%;
+}
+.logo{}
+.nav{}
+.nav ul{}
+.nav ul li{}

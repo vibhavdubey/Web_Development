@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banner</title>
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+        .banner{
+            height: 100vh;
+            background-color: aqua;
+            position: relative;
+        }
+        #banner{
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+        }
+        .banner ul{
+            display: flex;
+            position: absolute;
+            top: 70vh;
+            left:30%;
+            gap: 25px;
+        }
+        .banner ul li{
+            list-style: none;
+        }
+        .button{
+            height: 10vh;
+            width: 100%;
+            border-radius: 25px;
+            border: none;
+            align-items: center;
+        }
+        .button img{
+            height: 10vh;
+            width: 100%;
+            border: 3px solid black;
+            border-radius: 25px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="img/img-1.jpg" id="banner" alt="Image-1">
+        <ul>
+            <li onclick="document.getElementById('banner').src='img/img-2.jpg'"><button class="button"><img src="img/img-2.jpg" alt="Image-2"></button></li>
+            <li onclick="document.getElementById('banner').src='img/img-3.jpg'"><button class="button"><img src="img/img-3.jpg" alt="Image-3"></button></li>
+            <li onclick="document.getElementById('banner').src='img/img-4.jpg'"><button class="button"><img src="img/img-4.jpg" alt="Image-4"></button></li>
+            <li onclick="document.getElementById('banner').src='img/img-5.jpg'"><button class="button"><img src="img/img-5.jpg" alt="Image-5"></button></li>
+            <li onclick="document.getElementById('banner').src='img/img-1.jpg'"><button class="button"><img src="img/img-1.jpg" alt="Image-1"></button></li>
+        </ul>
+    </div>
+</body>
+</html>

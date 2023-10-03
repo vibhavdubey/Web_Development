@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        .banner{
+           background-color: whitesmoke;
+        }
+        #banner{
+            height: 80vh;
+            width: 100%;
+        } 
+        .banner ul{
+            display: flex;
+            justify-content: center;
+            gap:30px;
+        }
+        .banner ul li{
+            list-style: none;
+            padding: 1%;
+            background-color: tomato;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="img/img-1.jpg" id="banner" alt="img-1">
+
+        <ul>
+            <li onclick="document.getElementById('banner').src='img/img-2.jpg'">Image-2</li>
+            <li onclick="document.getElementById('banner').src='img/img-3.jpg'">Image-3</li>
+            <li onclick="document.getElementById('banner').src='img/img-4.jpg'">Image-4</li>
+            <li onclick="document.getElementById('banner').src='img/img-5.jpg'">Image-5</li>
+        </ul>
+
+    
+    </div>
+</body>
+</html>

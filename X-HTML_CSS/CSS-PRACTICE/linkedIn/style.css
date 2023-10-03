@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.new {
+    float: left;
+    margin-left: 2%;
+}
+
+.clr {
+    clear: both;
+}
+
+.bg1 {
+    background-color: black;
+}
+
+.bg2 {
+    background-color: darkslategray;
+}
+
+.bg3 {
+    background-color: grey;
+}
+
+.bg4 {
+    background-color: darkolivegreen;
+}
+
+.bg5 {
+    background-color: white;
+}
+
+body {
+    background-color: rgb(226, 213, 213);
+}
+
+.header {
+    height: 9vh;
+    width: 100%;
+    position: relative;
+    position: fixed;
+    top: 0%;
+}
+
+.logo {
+    position: absolute;
+    font-size: 2.5rem;
+    width: 5%;
+    margin-left: 6%;
+    padding-top: 1vh;
+    color: rgb(78, 78, 232);
+}
+
+.search {
+    position: absolute;
+    margin-left: 10%;
+    padding-top: 1.5%;
+}
+
+.nav-icon {
+    position: absolute;
+    margin-left: 40%;
+    width: 38%;
+    padding-top: 0.5%;
+
+}
+
+.nav-icon ul {}
+
+.nav-icon ul li {
+    display: inline;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 10.55%;
+
+}
+
+.nav-text {
+    position: absolute;
+    margin-left: 40%;
+    width: 40%;
+    margin-top: 2.7%;
+    /* background-color: brown; */
+}
+
+.nav-text ul {}
+
+.nav-text ul li {
+    display: inline;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: capitalize;
+    padding-left: 7.7%;
+    text-decoration: none;
+}
+
+.main {
+    min-height: 91vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 14vh;
+    /* background-color: aquamarine; */
+}
+
+/* left div content */
+.left {
+    min-height: 90vh;
+    width: 20.66%;
+}
+
+.leftProfile {
+    height: 60vh;
+    width: 100%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.backPhoto {
+    height: 10vh;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    background-color: rgb(141, 144, 143);
+}
+
+.profilePic {
+    height: 11vh;
+    width: 28%;
+    /* border-radius: 50%; */
+    position: absolute;
+    margin-top: 4vh;
+    margin-left: 36%;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgb(179, 117, 238);
+
+}
+
+.profilePic img {
+    height: 11vh;
+    width: 100%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.left1Center1 {
+    height: 10vh;
+    width: 100%;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.left1Center1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.left1Center1 p {
+    font-size: 12px;
+}
+
+.left2Center2 {
+    height: 13vh;
+    /* background-color: aliceblue; */
+}
+
+.left2Center2 ul {}
+
+.left2Center2 ul li {
+    display: inline;
+    margin: 0px 2px 0px 2px;
+    color: black;
+    /* background-color: brown; */
+}
+
+.left2Center2 ul li a {
+    text-decoration: none;
+    color: rgb(116, 114, 114);
+}
+
+.left2Center2 ul p {}
+
+.leftContent {
+    height: 75vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* center div content */
+.center {
+    min-height: 90vh;
+    width: 50.66%;
+}
+
+.headCenterFeed {
+    height: 20vh;
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 3%;
+    position: relative;
+}
+
+.pic {
+    height: 9vh;
+    width: 9%;
+    background-color: brown;
+    position: absolute;
+    border-radius: 50%;
+    margin: 2vh 0% 0vh 3%;
+    display: inline;
+}
+
+.pic a img {
+    height: 9vh;
+    border-radius: 50%;
+}
+.startPost{
+    height: 9vh;
+    width: 82%;
+    margin:2vh 0% 0vh 14% ;
+    position: absolute;
+    border-radius: 30px;
+    /* text-decoration: none; */
+    background-color: rgb(244, 240, 240);
+}
+.startPost a{ 
+    position: absolute;
+    padding-left: 4%;
+    padding-top: 3.4%;
+    text-decoration: none;
+    color: grey;
+}
+
+/* .hrRow{
+    width: 75%;
+    height: 5vh;
+}
+.select{
+    width: 24%;
+    height: 5vh;
+} */
+.post {
+    min-height: 90vh;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+/* right div content */
+.right {
+    min-height: 90vh;
+    width: 24.66%;
+}
+
+.rightContent {
+    height: 53vh;
+    width: 100%;
+    border-radius: 4%;
+}
+
+
+/* 
+
+
+.centerFeed{
+    min-height: 90vh;
+    width: 50.66%;
+}
+
+
+ */
