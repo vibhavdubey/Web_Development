@@ -1,0 +1,27 @@
+.wrapper{display: flex; flex-wrap: wrap;}
+.head{
+    height: 10vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+.nav{
+    height: 5vh;
+    width:20% ;
+    background-color: rgb(116, 60, 60);
+}
+.post{
+    height: 80vh;
+    width:80% ;
+    background-color: rgb(42, 165, 138);
+
+}
+.aside{
+    height: 80vh;
+    width:20% ;
+    background-color: rgb(199, 98, 144);
+}
+.footer{
+    height: 20vh;
+    width:100% ;
+    background-color: rgb(29, 17, 22);
+}

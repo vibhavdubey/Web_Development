@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Example</title>
+    <style>
+        /* *{margin: 0;padding: o;box-sizing: border-box;} */
+        body{background-color: gray;}
+        .bg0{background-color: chocolate;}
+        .bg1{background-color: aqua;}
+        .bg2{background-color: bisque;}
+        .bg3{background-color: blueviolet;}
+        .bg4{background-color: brown;}
+        .bg5{background-color: burlywood;}
+        .bg6{background-color: cadetblue;}
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .box{
+            height: 40vh;
+            width: 32%;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 25px;
+        }
+        img {
+            height: 20vh;
+            width: 60%;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <script>
+            const user=["vibhav","rohit","sourav","akash","ankit","rahul","andy"];
+            let userEmail=["vibhav@gmail.com","rohit@gmail.com","sourav@gmail.com","akash@gmail.com","ankit@gmail.com","rahul@gmail.com","andy@gmail.com"];
+            let post=["img/image0.jpg","img/image1.jpg","img/image2.jpg","img/image3.jpg","img/image4.jpg","img/image5.jpg","img/image6.jpg"]
+            let count=0;
+            while(count<user.length){
+                document.write(`<div class="box bg${count}">
+                    <h1>User : ${user[count]}</h1>
+                    <h2>Email : ${userEmail[count]}</h2>
+                    <img src="${post[count]}" alt="image">
+                    </div>`)
+                count++;
+            }
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="websiteUsingLoop.css">
+</head>
+
+<body>
+    <div class="wrapper">
+    <script>
+        let temp=['head','nav','nav','nav','nav','nav','post','aside','footer'];
+        let data=0;
+        while(data<=temp.length){
+            document.write(`<div class="${temp[data]}"></div>`);
+            data++;
+
+        }
+    </script>
+    </div>
+</body>
+</html>
