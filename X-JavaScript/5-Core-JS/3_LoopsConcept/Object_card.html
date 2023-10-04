@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //----------------------------------for in loop------------------------------------------
+        //for object
+        // const users={
+        //     id:1,
+        //     name:"Ducat",
+        //     course:"html"
+        // }
+
+
+        //for array
+        const users=["a","b","c","d"];
+        // console.log(users.id);
+        //for-in loop used for render array and object both.
+        // to access object in a loop 
+        for(user in users){
+            document.write(`<h1>${user} :: ${users[user]}</h1>`);
+        }
+
+        //------------------------------for of loop---------------------------------------------
+        //for-of it can break string and array both.
+        let hello="Ducat";
+        for(ch of hello){
+            document.write(`<h1>${ch}</h1>`);
+        }
+    </script>
+</body>
+</html>
