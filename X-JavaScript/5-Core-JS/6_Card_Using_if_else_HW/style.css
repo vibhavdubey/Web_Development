@@ -1,0 +1,36 @@
+
+body{background-color: bisque;}
+.bg0{background-color: darkseagreen;}
+.bg1{background-color: blueviolet;}
+.bg2{background-color: brown;}
+.bg3{background-color: cadetblue;}
+.bg4{background-color: cornflowerblue;}
+.bg5{background-color: coral;}
+.bg6{background-color: crimson;}
+.bg7{background-color: cyan;}
+.bg8{background-color: darkcyan;}
+.bg8{background-color: darkgreen;}
+.bg9{background-color: darkgoldenrod;}
+.bg10{background-color: darkkhaki;}
+.bg11{background-color: darkmagenta;}
+.bg12{background-color: darkseagreen;}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    justify-content: space-around;
+}
+.box{
+    height:40vh;
+    width: 32%;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 4px;
+}
+img {
+    height: 20vh;
+    width: 60%;
+    border-radius: 25px;
+}
