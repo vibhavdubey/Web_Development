@@ -1,0 +1,28 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+
+.bg1{background-color: black;}
+.bg2{background-color: blueviolet;}
+.bg3{background-color: aquamarine;}
+.bg4{background-color: cadetblue;}
+.bg5{background-color: cornflowerblue;}
+.head{
+    height: 5vh;
+}
+.navigation{
+    height: 10vh;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.post{
+    height: 85vh;
+    width: 75%;
+}
+.aside{
+    height: 85vh;
+    width: 25%;
+}
+.footer{
+    height: 30vh;
+}

@@ -9,8 +9,8 @@
     <div class="wrapper">
         <script>
             const user=["user@ducat.com","user12345"];
-            let email="";
-            let pass="";
+            let email="user@ducat.com";
+            let pass="bdofjef";
             if (email=="" & pass=="") {
                 console.log("Please fill all data.");
             }else if (email=="") {
@@ -19,8 +19,10 @@
                 console.log("Please enter password");
             }else if (email==user[0] & pass==user[1]) {
                 console.log("Welcome");
-            }else if () {
-                
+            }else if (email!=user[0] ) {
+                console.log("Email did not match.");
+            }else if(pass!=user[1]){
+                console.log("Password did not match");
             }
             else {
                 console.log("Register now");
