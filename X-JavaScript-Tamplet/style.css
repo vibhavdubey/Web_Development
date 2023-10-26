@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.bg1{background-color: black;}
+.bg2{background-color: rgb(57, 90, 79);}
+.bg3{background-color: aqua;}
+.bg4{background-color: blueviolet;}
+.bg5{background-color: cadetblue;}
+
+.head{
+    height: 6vh;
+}
+.head h1{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.navigation{
+    height: 10vh;
+}
+.nav{
+    height: 10vh;
+
+}
+.nav ul{
+    display: ;
+}
+.nav ul li{
+
+}
+.banner{
+    height: 50vh;
+}
+.main{
+    display: flex;
+}
+.article{
+    height: 60vh;
+    width: 75%;
+}
+.aside{
+    height: 60vh;
+    width: 25%;
+}
+.footer{
+    height: 30vh;
+}
