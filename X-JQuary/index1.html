@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+        body{background-color: bisque;}
+        .button{
+            height: 10vh;
+            background-color: rgb(70, 169, 136);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 25px;
+            margin-bottom: 4px;
+        }
+        button{
+            width: 20vh;
+            height: 6vh;
+            background-color: black;
+            color: white;
+            border-radius: 25px;
+        }
+        .main{
+            height: 70vh;
+            width: 100%;
+            background-color: rgb(70, 169, 136);
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 25px;
+        }
+        .red{
+            height: 10vh;
+            width: 45%;
+            background-color: red;
+            border-radius: 25px;
+        }
+        .yellow{
+            height: 10vh;
+            width: 45%;
+            background-color: yellow;
+            border-radius: 25px;
+        }
+        .green{
+            height: 10vh;
+            width: 45%;
+            background-color: green;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="button">
+        <button onclick="all()">All</button>
+        <button onclick="all(2)">Red</button>
+        <button onclick="all(3)">Yellow</button>
+        <button onclick="all(4)">Green</button>
+    </div>
+    <div  class="main">
+        <div id="dis2" class="red"></div>
+        <div id="dis2" class="red"></div>
+        <div id="dis3" class="yellow"></div>
+        <div id="dis3" class="yellow"></div>
+        <div id="dis4" class="green"></div>
+        <div id="dis4" class="green"></div>
+    </div>
+
+    <script>
+        function all(data) {
+            if (data==1) {
+                document.getElementById('dis').style.display='none';
+            }else if (data==2) {
+                document.getElementById('dis2').style.display='none';
+            }else if (data==3) {
+                document.getElementById('dis3').style.display='none';
+            }else if (data==4) {
+                document.getElementById('dis4').style.display='none';
+            }
+           
+        }
+    </script>  -->
+
+    <!-- ---------------------------------------------------------------------------------------------------------- -->
+
+    <div class="button">
+        <button id="but1">All</button>
+        <button id="but2">Red</button>
+        <button id="but3">Yellow</button>
+        <button id="but4">Green</button>
+    </div>
+    <div  class="main">
+        <div class="red slideToggle"></div>
+        <div class="red slideToggle"></div>
+        <div class="yellow slideToggle"></div>
+        <div class="yellow slideToggle"></div>
+        <div class="green slideToggle"></div>
+        <div class="green slideToggle"></div>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#but1").click(function () {
+                $(".slideToggle").slideToggle();
+            });
+            $("#but2").click(function () {
+                $(".red").slideUp();
+            });
+            $("#but3").click(function () {
+                $(".yellow").slideUp();
+            });  
+            $("#but4").click(function () {
+                $(".green").slideUp();
+            });   
+        });
+    </script>
+
+
+<!-- ----------------------------------------------------------------------------------------------------------------------- -->
+    
+<!-- <div class="button">
+        <button onclick="showAll()">All</button>
+        <button onclick="hideElements('red')">Red</button>
+        <button onclick="hideElements('yellow')">Yellow</button>
+        <button onclick="hideElements('green')">Green</button>
+    </div>
+    <div class="main">
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="green"></div>
+        <div class="green"></div>
+    </div>
+
+    <script>
+        function hideElements(className) {
+            let elements = document.getElementsByClassName(className);
+            for (let i = 0; i < elements.length; i++) {
+                elements[i].style.display = 'none';
+            }
+        }
+
+        function showAll() {
+            let elements = document.querySelectorAll('.red, .yellow, .green');
+            for (let i = 0; i < elements.length; i++) {
+                elements[i].style.display = 'block';
+            }
+        }
+    </script> -->
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+</body>
+</html>
