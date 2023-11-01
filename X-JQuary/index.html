@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        h1{
+            background-color: aquamarine;
+            height: 10vh;
+            border-radius: 30px;
+            text-align: center;
+            padding-top: 7px;
+            box-sizing: border-box;
+            text-transform: capitalize;
+        }
+        button{
+            height: 5vh;
+            width: 10%;
+            text-align: center;
+            background-color: cadetblue;
+            border-radius: 25px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="head1" onclick="remove(1)">This ia a heading 1</h1>
+    <h1 id="head2" onclick="remove(2)">This ia a heading 2</h1>
+    <h1 id="head3" onclick="remove(3)">This ia a heading 3</h1>
+    <h1 id="head4" onclick="remove(4)">This ia a heading 4</h1>
+    <h1 id="head5" onclick="remove(5)">This ia a heading 5</h1>
+    
+    <script>
+
+        function remove(data) {
+            if (data==1) {
+                document.getElementById('head1').style.display = 'none';
+            }else if (data==2) {
+                document.getElementById('head2').style.display = 'none';
+            }else if (data==3) {
+                document.getElementById('head3').style.display = 'none';
+            }else if (data==4) {
+                document.getElementById('head4').style.display = 'none';
+            }else if (data==5) {
+                document.getElementById('head5').style.display = 'none';
+            }
+        }
+    </script> -->
+
+
+
+    <h1>This is heading 1</h1>
+    <h1>This is heading 2</h1>
+    <h1>This is heading 3</h1>
+    <h1>This is heading 4</h1>
+    <h1>This is heading 5</h1>
+
+    <button id="slideDown">Slide Down</button>
+    <button id="slideToggle">Slide Toggle</button>
+
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("h1").click(function () {
+                // $(this).hide();
+                $(this).slideUp();
+            });
+            $("#slideDown").click(function () {
+                $("h1").slideDown();
+            });
+            $("#slideToggle").click(function () {
+                $("h1").slideToggle();
+            });
+        });
+    </script>
+
+
+</body>
+</html>
